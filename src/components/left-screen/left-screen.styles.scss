@@ -1,0 +1,115 @@
+.left-screen{
+  width: 60%;
+  height: 100%;
+}
+
+.search {
+  background-color: white;
+  width: 45%;
+  height: 4%;
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.input {
+  background-color: transparent;
+  text-align: left;
+  color: dodgerblue;
+  border: none;
+  font-family: 'Arvo';
+  font-size:150%;
+  height: 100%;
+  width: 88%;
+  float: left;
+
+  &:focus {
+    outline: none;    
+  }
+}
+
+.btn{
+  float: left;
+  height: 100%;
+  width: 12%;
+  cursor: pointer;
+}
+
+#icon {
+  color: rgb(0, 44, 0);
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 170%;
+}
+
+input::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.items{
+  margin-top: 20px;
+  width: 100%;
+  height: 96%;
+  float: left;
+}
+
+.left-screen-item{
+  border: 1px solid black;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+
+  .city-name{
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 3.3vw;
+    color: white;
+    font-family: 'Squada One', cursive;
+  }
+
+  .icon{
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 2;
+    }
+
+  .temp{
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;
+    font-size: 7vw;
+    color: white;
+    font-family: 'Squada One', cursive;
+  }
+
+  .wind-speed{
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    font-size: 2.7vw;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Squada One', cursive;
+  }
+
+  .humidity{
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+    color: white;
+    margin-left: 10px;
+    font-size: 2.7vw;
+    font-family: 'Squada One', cursive;
+  }
+
+  .img{
+    height: 9vw;
+    width: 9vw;
+  }
+}
+
+

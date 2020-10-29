@@ -1,0 +1,3 @@
+export const DefaultPlacesTypes = {
+  SET_DEFAULT_PLACES_WEATHER_DATA: 'SET_DEFAULT_PLACES_WEATHER_DATA'
+};

@@ -1,0 +1,4 @@
+export const SearchActionsTypes = {
+  SEARCH_BUTTON_PRESSED: 'SEARCH_BUTTON_PRESSED',
+  SET_WEATHER_DATA: 'SET_WEATHER_DATA'
+};
